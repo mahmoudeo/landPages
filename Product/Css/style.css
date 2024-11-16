@@ -1,0 +1,402 @@
+* {
+  margin: 0;
+  padding: 0%;
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: arabic-font;
+  src: url(../fonts/Cairo-Regular.ttf);
+}
+body {
+  font-family: arabic-font, sans-serif;
+}
+header video {
+  min-width: 100%;
+  min-height: 100%;
+  position: fixed;
+  z-index: -5;
+}
+.overlay {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+header .header-text {
+  font-size: 36px;
+  margin-bottom: 40px;
+  line-height: 46px;
+  color: #555555;
+}
+header .header-text p {
+  font-size: 18px;
+  line-height: 32px;
+  color: #5d5d5d;
+  margin-bottom: 40px;
+}
+header .header-text {
+  padding-top: 190px;
+}
+header .header-button a.btn {
+  padding: 22px 54px;
+  background-color: #7936b2 !important;
+  color: #ffffff !important;
+  margin-left: 15px;
+}
+header .header-button a.btn[href="#features"] {
+  background-color: transparent !important;
+  color: #7936b2 !important;
+}
+header .header-button a.btn[href="#features"]:hover {
+  background-color: #7936b2 !important;
+  color: #ffffff !important;
+}
+header .product {
+  position: relative;
+  margin-bottom: 30px;
+}
+header .product-img img{
+  width: 100%;
+}
+header .product .product-label img {
+  position: absolute;
+  top: -8%;
+  right: -11%;
+  
+}
+header .product .product-label p {
+  position: absolute;
+  top: -18px;
+  right: -3px;
+  text-align: center;
+  font-size: 24px;
+  color: #ffffff;
+}
+header .product .product-label p span {
+  display: block;
+}
+header .brand {
+  padding-right: 50px;
+}
+main {
+  background-color: #f7f7f7f7;
+}
+main section.features {
+  padding-block: 70px;
+}
+main section.features .features-title h1 {
+  font-size: 36px;
+  color: 555;
+  line-height: 32px;
+  padding-bottom: 45px;
+  position: relative;
+}
+main section.features .features-title h1::after {
+  content: "";
+  width: 150px;
+  height: 2px;
+  background-color: #7936b2;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+main section.features .features-med-obj .d-flex {
+  padding: 70px 0;
+  background-color: #f7f7f7;
+  border-bottom: 3px solid #aaaaaa86;
+}
+main section.features .features-med-obj .d-flex:nth-child(even) {
+  direction: ltr;
+}
+main section.features .features-med-obj .d-flex img {
+  margin: 0 80px;
+}
+
+main section.features .features-med-obj .d-flex h4 {
+  font-size: 36px;
+  font-weight: bold;
+  color: #6a3093;
+  padding: 0 25px;
+  margin-bottom: 50px;
+  border-right: 3px #7936b2 solid;
+}
+main section.features .features-med-obj .d-flex:nth-child(even) h4 {
+  border-right: none;
+  border-left: 3px solid #7936b2;
+}
+main section.features .features-med-obj .d-flex p {
+  font-size: 18px;
+  line-height: 32px;
+  color: #555555;
+}
+main section.prices {
+  padding: 50px 0 60px;
+}
+main section.prices .prices-text h2 {
+  font-size: 30px;
+  color: #555555;
+}
+section.prices .plan-card {
+  background-color: #fff;
+  margin-top: 100px;
+  padding: 15px 0;
+  border: 2px solid #ededed;
+  color: #acacac;
+}
+main section.prices .plan-card span.title {
+  font-size: 18px;
+  color: #a044ff;
+}
+section.prices .plan-card span.sar {
+  font-size: 15px;
+  vertical-align: bottom;
+}
+main section.prices .plan-card h5 {
+  font-size: 48px;
+  margin: 30px auto;
+}
+main section.prices .plan-card ul li {
+  list-style: none;
+  margin-bottom: 30px;
+  font-size: 15px;
+}
+main section.prices .plan-card ul {
+  padding-right: 0;
+}
+main section.prices .plan-card a.btn {
+  border-radius: 0%;
+  padding: 10px 40px;
+  border: #6a3093 solid 2px;
+  color: #6a3093;
+}
+main section.prices .plan-card a.btn:hover {
+  background-color: #6a3093;
+  color: #fff;
+  transition: all 0.5s;
+}
+main section.prices .container .row .col-md-6:nth-child(3) .plan-card {
+  padding-top: 60px;
+  margin-top: 55px;
+}
+main section.prices .container .row .col-md-6:nth-child(3) .plan-card a.btn {
+  background-color: #6a3093;
+  color: #fff;
+}
+main section.caq {
+  padding: 55px 0;
+}
+main section.caq .caq-title h2 {
+  font-size: 30px;
+  color: #555;
+  margin-bottom: 55px;
+}
+main
+  section.caq
+  .caq-accordions
+  .container
+  .row
+  .col-lg-4
+  .accordion
+  .accordion-item {
+  margin-bottom: 15px;
+  border: 2px #00000015 solid;
+  border-radius: 0;
+}
+main
+  section.caq
+  .caq-accordions
+  .container
+  .row
+  .col-lg-4
+  .accordion
+  .accordion-item
+  button {
+  font-size: 18px;
+  font-weight: bold;
+  color: #555;
+}
+.accordion-body {
+  font-size: 15px;
+  color: #858585;
+  line-height: 24px;
+}
+main
+  section.caq
+  .caq-accordions
+  .accordion
+  .accordion-item
+  .accordion-button:not(.collapsed) {
+  background-color: #fff;
+}
+main
+  section.caq
+  .caq-accordions
+  .accordion
+  .accordion-item
+  .accordion-button:focus {
+  border: 0;
+  box-shadow: 0 0 0 0;
+}
+section.video {
+  min-height: 100vh;
+  position: relative;
+  overflow: hidden;
+}
+main section.video #lastVideo {
+  min-width: 100%;
+  min-height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+section.video .overlay {
+  background-color: rgba(130, 77, 178, 0.9);
+  min-height: 100%;
+  position: absolute;
+  inset: 0;
+}
+main section.video .overlay button {
+  background-color: transparent;
+  position: absolute;
+  bottom: 50%;
+  right: 50%;
+  font-size: 30px;
+  color: #fff;
+  border: none;
+  transform: translate(50%, 50%);
+}
+section.video .overlay button .fa-video {
+  display: block;
+  transition: all 0.3s ease-in-out;
+  width: 90px;
+  height: 90px;
+  line-height: 90px;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  padding: 20px;
+  margin: 0 auto 45px;
+}
+main section.contact {
+  padding: 60px 0 50px;
+  background-color: #131313;
+}
+main section.contact .container .row .col-md-6 h4 {
+  font-size: 18px;
+  color: #758594;
+  line-height: 50px;
+}
+main section.contact .container .row form input,
+main section.contact .container .row form textarea {
+  border: none;
+  box-shadow: none;
+  background-color: #242424;
+  font-size: 18px;
+  line-height: 35px;
+  margin-bottom: 10px;
+  display: block;
+  color: #aeadad !important ;
+  text-align: right;
+  width: 90%;
+}
+main section.contact .container .row form input::placeholder,
+main section.contact .container .row form textarea::placeholder {
+  color: #aeadad;
+}
+main section.contact .container .row button {
+  font-size: 18px;
+  padding: 10px 20px;
+  background-color: #a044ff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+}
+main section.contact .container .row .col-md-6 .blog a.blog-link{
+  text-decoration: none;
+  color: #737373;
+  font-size: 18px;
+}
+main section.contact .container .row .col-md-6 .blog a.blog-link h3{
+  color: #aeadadad ;
+  font-size: 24px;
+
+}
+main section.contact .container .row .col-md-6 .blog a.blog-link .d-flex{
+  margin: 0 0 25px !important;
+
+}
+footer{
+  background-color: #1d1d1d;
+  padding: 25px 0;
+}
+footer .container .row .col-sm-6 ul.list-inline .list-inline-item{
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  background-color: #758594;
+  display: inline-block;
+  color: #1d1d1d !important;
+  text-decoration: none !important;
+  text-align: center;
+  border-radius: 50%;
+  transition: all .3s;
+  cursor: pointer;
+}
+footer ul.list-inline .list-inline-item .footer-hyperText{
+  text-decoration: none;
+
+}
+footer .container .row .col-sm-6 ul.list-inline .list-inline-item:hover{
+  background-color: #1479ec;
+
+}
+footer .container .row .col-sm-6 p , footer .container .row .col-sm-6 span#fullYear{
+  color: #919191;
+  font-size: 15px;
+  align-items: left;
+  margin: 0 10px 10px 0;
+}
+@media screen and (max-width:992px) {
+  header .header-text{
+    padding-top: 60px;
+    margin-left: 20px;
+  }
+  header .product .product-label img {
+    top: -12%;
+    right: -20%;
+  }
+}
+@media screen and (max-width:768px) {
+   .product{
+    margin-top: 100px;
+  }
+  header .product .product-label img{
+    top: -7%;
+    right: 50%;
+    transform: translateX(50%);
+  }
+  header .product .product-label p{
+    top: -3%;
+    transform: translateX(50%);
+    right: 50%;
+
+  }
+  section.features .features-med-obj .d-flex{
+    flex-flow: column;
+    text-align: center;
+  }
+  section.features .features-med-obj .d-flex img
+  {
+    padding-bottom: 30px;
+
+  }
+  main section.contact .container .row .col-md-6:nth-child(2){
+    padding-top: 50px;
+  }
+}
+@media screen and (max-width:576px) {
+  footer{
+    text-align: center;
+  }
+  footer .container .row .d-flex{
+    text-align: center;
+    display: block !important;
+  }
+}
